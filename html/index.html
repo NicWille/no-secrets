@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>NO SECRETS</title>
+  <meta charset="utf-8" />
+ <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+<link href="../css/style.css" rel="stylesheet">
+<link href="../css/last.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="navbar-left d-flex justify-content-between align-items-center">
+        <img class="mb-4 mt-4" src="../img/woman.png" alt="picture here" width="50" height="50">
+        <h1 class="h3 mb-3 font-weight-normal"><sup><u>no</u></sup>SECRETS</h1>
+        <img class="mb-4 mt-4" src="../img/man.png" alt="picture here" width="50" height="50">
+    </div>
+    <div class="navbar-right">
+      <ul class="nav-menu d-flex justify-content-around">
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">Register</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">Login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="secret.html">Secret</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+
+  <footer class="text-center">
+    <p>&copy; Nic Wille <span id="year"></span></p>
+  </footer>
+  <script>
+    var yearSpan = document.getElementById('year');
+    var currentYear = new Date().getFullYear();
+    yearSpan.textContent = currentYear;
+  </script>
+</body>
+
+</html>
